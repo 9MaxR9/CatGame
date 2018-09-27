@@ -7,12 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2276B08C1F1217E50053A195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2276B08B1F1217E50053A195 /* Main.storyboard */; };
+		228A281C214C331D008DA097 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A281B214C331D008DA097 /* Menu.swift */; };
+		228A281E214C352A008DA097 /* Menu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 228A281D214C352A008DA097 /* Menu.sks */; };
+		228A2820214C4CA7008DA097 /* Chars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228A281F214C4CA7008DA097 /* Chars.swift */; };
+		228A2822214C4CC4008DA097 /* Chars.sks in Resources */ = {isa = PBXBuildFile; fileRef = 228A2821214C4CC4008DA097 /* Chars.sks */; };
+		22A7DD9B1F0E0F05001226C6 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7DD9A1F0E0F05001226C6 /* GameOverScene.swift */; };
+		22A7DD9D1F0E0F1F001226C6 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DD9C1F0E0F1F001226C6 /* GameOverScene.sks */; };
+		22A7DDB01F0E2680001226C6 /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA01F0E267F001226C6 /* Icon-60@3x.png */; };
+		22A7DDB11F0E2680001226C6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA11F0E267F001226C6 /* Icon@2x.png */; };
+		22A7DDB21F0E2680001226C6 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA21F0E267F001226C6 /* Icon-60@2x.png */; };
+		22A7DDB31F0E2680001226C6 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA31F0E267F001226C6 /* Icon-76.png */; };
+		22A7DDB41F0E2680001226C6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA41F0E267F001226C6 /* Icon-72.png */; };
+		22A7DDB51F0E2680001226C6 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA51F0E267F001226C6 /* Icon-Small-50@2x.png */; };
+		22A7DDB61F0E2680001226C6 /* Icon-Spotlight-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA61F0E267F001226C6 /* Icon-Spotlight-40.png */; };
+		22A7DDB71F0E2680001226C6 /* Icon-Spotlight-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA71F0E267F001226C6 /* Icon-Spotlight-40@3x.png */; };
+		22A7DDB81F0E2680001226C6 /* Icon-iPadPro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA81F0E2680001226C6 /* Icon-iPadPro@2x.png */; };
+		22A7DDB91F0E2680001226C6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDA91F0E2680001226C6 /* Icon-Small@2x.png */; };
+		22A7DDBA1F0E2680001226C6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAA1F0E2680001226C6 /* Icon-Small.png */; };
+		22A7DDBB1F0E2680001226C6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAB1F0E2680001226C6 /* Icon.png */; };
+		22A7DDBC1F0E2680001226C6 /* Icon-Small@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAC1F0E2680001226C6 /* Icon-Small@3x.png */; };
+		22A7DDBD1F0E2680001226C6 /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAD1F0E2680001226C6 /* Icon-Spotlight-40@2x.png */; };
+		22A7DDBE1F0E2680001226C6 /* Icon-76@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAE1F0E2680001226C6 /* Icon-76@3x.png */; };
+		22A7DDBF1F0E2680001226C6 /* Icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDAF1F0E2680001226C6 /* Icon-76@2x.png */; };
+		22A7DDC11F0E2EC0001226C6 /* CatGameIcon1024x1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDC01F0E2EBF001226C6 /* CatGameIcon1024x1024.jpg */; };
+		22A7DDC31F0E2ECC001226C6 /* CatGameIcon1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A7DDC21F0E2ECC001226C6 /* CatGameIcon1024x1024.png */; };
+		22C4D5FD1F52CF8300731E1E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C4D5FC1F52CF8300731E1E /* GoogleMobileAds.framework */; };
+		22C4D6031F52D11400731E1E /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C4D6021F52D11400731E1E /* GoogleMobileAds.framework */; };
 		22F005931F0CC4000029D070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F005921F0CC4000029D070 /* AppDelegate.swift */; };
 		22F005951F0CC4000029D070 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22F005941F0CC4000029D070 /* GameScene.sks */; };
 		22F005971F0CC4000029D070 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 22F005961F0CC4000029D070 /* Actions.sks */; };
 		22F005991F0CC4000029D070 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F005981F0CC4000029D070 /* GameScene.swift */; };
 		22F0059B1F0CC4000029D070 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F0059A1F0CC4000029D070 /* GameViewController.swift */; };
-		22F0059E1F0CC4000029D070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F0059C1F0CC4000029D070 /* Main.storyboard */; };
 		22F005A01F0CC4000029D070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F0059F1F0CC4000029D070 /* Assets.xcassets */; };
 		22F005A31F0CC4000029D070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F005A11F0CC4000029D070 /* LaunchScreen.storyboard */; };
 		22F005AE1F0CC4000029D070 /* CatGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F005AD1F0CC4000029D070 /* CatGameTests.swift */; };
@@ -37,13 +63,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2276B08B1F1217E50053A195 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		228A281B214C331D008DA097 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		228A281D214C352A008DA097 /* Menu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Menu.sks; sourceTree = "<group>"; };
+		228A281F214C4CA7008DA097 /* Chars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chars.swift; sourceTree = "<group>"; };
+		228A2821214C4CC4008DA097 /* Chars.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Chars.sks; sourceTree = "<group>"; };
+		22A7DD9A1F0E0F05001226C6 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		22A7DD9C1F0E0F1F001226C6 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		22A7DDA01F0E267F001226C6 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@3x.png"; path = "../../icons/Icon-60@3x.png"; sourceTree = "<group>"; };
+		22A7DDA11F0E267F001226C6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../icons/Icon@2x.png"; sourceTree = "<group>"; };
+		22A7DDA21F0E267F001226C6 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "../../icons/Icon-60@2x.png"; sourceTree = "<group>"; };
+		22A7DDA31F0E267F001226C6 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76.png"; path = "../../icons/Icon-76.png"; sourceTree = "<group>"; };
+		22A7DDA41F0E267F001226C6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../../icons/Icon-72.png"; sourceTree = "<group>"; };
+		22A7DDA51F0E267F001226C6 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50@2x.png"; path = "../../icons/Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		22A7DDA61F0E267F001226C6 /* Icon-Spotlight-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40.png"; path = "../../icons/Icon-Spotlight-40.png"; sourceTree = "<group>"; };
+		22A7DDA71F0E267F001226C6 /* Icon-Spotlight-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@3x.png"; path = "../../icons/Icon-Spotlight-40@3x.png"; sourceTree = "<group>"; };
+		22A7DDA81F0E2680001226C6 /* Icon-iPadPro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-iPadPro@2x.png"; path = "../../icons/Icon-iPadPro@2x.png"; sourceTree = "<group>"; };
+		22A7DDA91F0E2680001226C6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "../../icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		22A7DDAA1F0E2680001226C6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "../../icons/Icon-Small.png"; sourceTree = "<group>"; };
+		22A7DDAB1F0E2680001226C6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../icons/Icon.png; sourceTree = "<group>"; };
+		22A7DDAC1F0E2680001226C6 /* Icon-Small@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@3x.png"; path = "../../icons/Icon-Small@3x.png"; sourceTree = "<group>"; };
+		22A7DDAD1F0E2680001226C6 /* Icon-Spotlight-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Spotlight-40@2x.png"; path = "../../icons/Icon-Spotlight-40@2x.png"; sourceTree = "<group>"; };
+		22A7DDAE1F0E2680001226C6 /* Icon-76@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@3x.png"; path = "../../icons/Icon-76@3x.png"; sourceTree = "<group>"; };
+		22A7DDAF1F0E2680001226C6 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-76@2x.png"; path = "../../icons/Icon-76@2x.png"; sourceTree = "<group>"; };
+		22A7DDC01F0E2EBF001226C6 /* CatGameIcon1024x1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CatGameIcon1024x1024.jpg; path = ../../CatGameIcon1024x1024.jpg; sourceTree = "<group>"; };
+		22A7DDC21F0E2ECC001226C6 /* CatGameIcon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CatGameIcon1024x1024.png; path = ../../CatGameIcon1024x1024.png; sourceTree = "<group>"; };
+		22C4D5FC1F52CF8300731E1E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.22.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		22C4D6021F52D11400731E1E /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		22F0058F1F0CC4000029D070 /* CatGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F005921F0CC4000029D070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22F005941F0CC4000029D070 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		22F005961F0CC4000029D070 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		22F005981F0CC4000029D070 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		22F0059A1F0CC4000029D070 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		22F0059D1F0CC4000029D070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22F0059F1F0CC4000029D070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F005A21F0CC4000029D070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22F005A41F0CC4000029D070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +112,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C4D6031F52D11400731E1E /* GoogleMobileAds.framework in Frameworks */,
+				22C4D5FD1F52CF8300731E1E /* GoogleMobileAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +134,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C4D5FB1F52CF8300731E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22C4D5FC1F52CF8300731E1E /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		22F005861F0CC4000029D070 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +149,7 @@
 				22F005AC1F0CC4000029D070 /* CatGameTests */,
 				22F005B71F0CC4000029D070 /* CatGameUITests */,
 				22F005901F0CC4000029D070 /* Products */,
+				22C4D5FB1F52CF8300731E1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +166,37 @@
 		22F005911F0CC4000029D070 /* CatGame */ = {
 			isa = PBXGroup;
 			children = (
+				22C4D6021F52D11400731E1E /* GoogleMobileAds.framework */,
+				22A7DDA21F0E267F001226C6 /* Icon-60@2x.png */,
+				22A7DDA01F0E267F001226C6 /* Icon-60@3x.png */,
+				22A7DDA41F0E267F001226C6 /* Icon-72.png */,
+				22A7DDA31F0E267F001226C6 /* Icon-76.png */,
+				22A7DDAF1F0E2680001226C6 /* Icon-76@2x.png */,
+				22A7DDAE1F0E2680001226C6 /* Icon-76@3x.png */,
+				22A7DDA81F0E2680001226C6 /* Icon-iPadPro@2x.png */,
+				22A7DDA51F0E267F001226C6 /* Icon-Small-50@2x.png */,
+				22A7DDAA1F0E2680001226C6 /* Icon-Small.png */,
+				22A7DDA91F0E2680001226C6 /* Icon-Small@2x.png */,
+				22A7DDAC1F0E2680001226C6 /* Icon-Small@3x.png */,
+				22A7DDA61F0E267F001226C6 /* Icon-Spotlight-40.png */,
+				22A7DDAD1F0E2680001226C6 /* Icon-Spotlight-40@2x.png */,
+				22A7DDA71F0E267F001226C6 /* Icon-Spotlight-40@3x.png */,
+				22A7DDAB1F0E2680001226C6 /* Icon.png */,
+				22A7DDC01F0E2EBF001226C6 /* CatGameIcon1024x1024.jpg */,
+				22A7DDC21F0E2ECC001226C6 /* CatGameIcon1024x1024.png */,
+				22A7DDA11F0E267F001226C6 /* Icon@2x.png */,
 				22F005921F0CC4000029D070 /* AppDelegate.swift */,
 				22F005941F0CC4000029D070 /* GameScene.sks */,
 				22F005961F0CC4000029D070 /* Actions.sks */,
 				22F005981F0CC4000029D070 /* GameScene.swift */,
+				228A281B214C331D008DA097 /* Menu.swift */,
+				228A281D214C352A008DA097 /* Menu.sks */,
+				228A281F214C4CA7008DA097 /* Chars.swift */,
+				228A2821214C4CC4008DA097 /* Chars.sks */,
+				22A7DD9A1F0E0F05001226C6 /* GameOverScene.swift */,
+				22A7DD9C1F0E0F1F001226C6 /* GameOverScene.sks */,
 				22F0059A1F0CC4000029D070 /* GameViewController.swift */,
-				22F0059C1F0CC4000029D070 /* Main.storyboard */,
+				2276B08B1F1217E50053A195 /* Main.storyboard */,
 				22F0059F1F0CC4000029D070 /* Assets.xcassets */,
 				22F005A11F0CC4000029D070 /* LaunchScreen.storyboard */,
 				22F005A41F0CC4000029D070 /* Info.plist */,
@@ -238,11 +326,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22F0059E1F0CC4000029D070 /* Main.storyboard in Resources */,
+				22A7DDBB1F0E2680001226C6 /* Icon.png in Resources */,
+				22A7DDBC1F0E2680001226C6 /* Icon-Small@3x.png in Resources */,
+				22A7DDB71F0E2680001226C6 /* Icon-Spotlight-40@3x.png in Resources */,
+				2276B08C1F1217E50053A195 /* Main.storyboard in Resources */,
+				22A7DDC31F0E2ECC001226C6 /* CatGameIcon1024x1024.png in Resources */,
+				22A7DDB11F0E2680001226C6 /* Icon@2x.png in Resources */,
+				22A7DDBE1F0E2680001226C6 /* Icon-76@3x.png in Resources */,
 				22F005951F0CC4000029D070 /* GameScene.sks in Resources */,
+				22A7DDBD1F0E2680001226C6 /* Icon-Spotlight-40@2x.png in Resources */,
+				22A7DDB41F0E2680001226C6 /* Icon-72.png in Resources */,
 				22F005A01F0CC4000029D070 /* Assets.xcassets in Resources */,
 				22F005A31F0CC4000029D070 /* LaunchScreen.storyboard in Resources */,
+				22A7DDB51F0E2680001226C6 /* Icon-Small-50@2x.png in Resources */,
+				22A7DDB21F0E2680001226C6 /* Icon-60@2x.png in Resources */,
+				22A7DDB01F0E2680001226C6 /* Icon-60@3x.png in Resources */,
+				22A7DDC11F0E2EC0001226C6 /* CatGameIcon1024x1024.jpg in Resources */,
+				22A7DDBA1F0E2680001226C6 /* Icon-Small.png in Resources */,
+				22A7DDB31F0E2680001226C6 /* Icon-76.png in Resources */,
+				228A281E214C352A008DA097 /* Menu.sks in Resources */,
+				22A7DDBF1F0E2680001226C6 /* Icon-76@2x.png in Resources */,
+				22A7DDB81F0E2680001226C6 /* Icon-iPadPro@2x.png in Resources */,
+				22A7DD9D1F0E0F1F001226C6 /* GameOverScene.sks in Resources */,
+				22A7DDB91F0E2680001226C6 /* Icon-Small@2x.png in Resources */,
 				22F005971F0CC4000029D070 /* Actions.sks in Resources */,
+				22A7DDB61F0E2680001226C6 /* Icon-Spotlight-40.png in Resources */,
+				228A2822214C4CC4008DA097 /* Chars.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +378,10 @@
 			files = (
 				22F005991F0CC4000029D070 /* GameScene.swift in Sources */,
 				22F0059B1F0CC4000029D070 /* GameViewController.swift in Sources */,
+				22A7DD9B1F0E0F05001226C6 /* GameOverScene.swift in Sources */,
 				22F005931F0CC4000029D070 /* AppDelegate.swift in Sources */,
+				228A281C214C331D008DA097 /* Menu.swift in Sources */,
+				228A2820214C4CA7008DA097 /* Chars.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +417,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22F0059C1F0CC4000029D070 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22F0059D1F0CC4000029D070 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		22F005A11F0CC4000029D070 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,13 +535,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 99G59FPP4Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CatGame/GoogleMobileAdsSdkiOS-7.22.0",
+					"$(PROJECT_DIR)/CatGame",
+				);
 				INFOPLIST_FILE = CatGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixel-Developers.TestApp1.CatGame";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixel-Developers.CatGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -445,13 +556,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 99G59FPP4Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CatGame/GoogleMobileAdsSdkiOS-7.22.0",
+					"$(PROJECT_DIR)/CatGame",
+				);
 				INFOPLIST_FILE = CatGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixel-Developers.TestApp1.CatGame";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pixel-Developers.CatGame";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -536,6 +654,7 @@
 				22F005BF1F0CC4000029D070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F005C01F0CC4000029D070 /* Build configuration list for PBXNativeTarget "CatGameTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +663,7 @@
 				22F005C21F0CC4000029D070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F005C31F0CC4000029D070 /* Build configuration list for PBXNativeTarget "CatGameUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +672,7 @@
 				22F005C51F0CC4000029D070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
